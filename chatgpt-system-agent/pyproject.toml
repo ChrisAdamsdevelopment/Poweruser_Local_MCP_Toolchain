@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chatgpt-system-agent"
+version = "0.1.0"
+description = "Unified FastMCP system control agent with ngrok stable endpoint"
+requires-python = ">=3.11"
+dependencies = [
+  "fastmcp==2.10.6",
+  "playwright==1.54.0",
+  "pyautogui==0.9.54",
+  "pillow==11.3.0",
+  "opendesk[core,mcp]==0.3.2",
+]
